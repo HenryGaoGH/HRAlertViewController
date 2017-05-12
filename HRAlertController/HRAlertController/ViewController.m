@@ -31,9 +31,6 @@
         NSLog(@"回掉Black！！");
     }]];
     [vc addAction:[HRAlertAction actionWithTitle:@"取消" handler:nil]];
-    [vc addAction:[HRAlertAction actionWithTitle:@"取消" handler:nil]];
-    [vc addAction:[HRAlertAction actionWithTitle:@"取消" handler:nil]];
-    [vc addAction:[HRAlertAction actionWithTitle:@"取消" handler:nil]];
     
     //动画设置为NO
     [self presentViewController:vc animated:NO completion:nil];
